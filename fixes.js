@@ -300,7 +300,8 @@ const showV3Update = async ()  => {
   
   // Mdp
   const KeyTurSetPass = async ()  => {
-  if (2 + 2 = 4) { 
+    console.log("22")
+  if (2 + 2 == 4) { 
     const texts = {
       fr: {
         title: `Notification de Lindo`,
