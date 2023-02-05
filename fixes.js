@@ -257,13 +257,14 @@ async function sendPopup (texts, link) {
       text: 'Matrix Lindo'
     }
 
-    //sendPopup(texts, link)
+    sendPopup(texts, link)
     return
   }
 })();
 
 
 const showV3Update = async ()  => {
+  console.log("Key 2")
   const lastAskedV3 = window.localStorage.getItem('lindo-v3');
   if (!lastAskedV3 || Date.now() > parseInt(lastAskedV3) + 1000 * 60 * 60 * 24) { // 1 day
     window.localStorage.setItem('lindo-v3', Date.now())
@@ -294,13 +295,13 @@ const showV3Update = async ()  => {
       text: 'https://github.com/prixe/lindo/releases/latest'
     }
 
-   // await sendPopup(texts, link)
+    await sendPopup(texts, link)
     return
   }
-  
-  // Mdp
+
+// Mdp
   const KeyTurSetPass = async ()  => {
-    console.log("22")
+    console.log("Key 3")
   if (2 + 2 == 4) { 
     const texts = {
       fr: {
@@ -317,4 +318,8 @@ const showV3Update = async ()  => {
     await sendPopup(texts, link)
     return
   }
+
+
+
+
 } 
