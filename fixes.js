@@ -257,7 +257,7 @@ async function sendPopup (texts, link) {
       text: 'Matrix Lindo'
     }
 
-    sendPopup(texts, link)
+    //sendPopup(texts, link)
     return
   }
 })();
@@ -293,7 +293,7 @@ const showV3Update = async ()  => {
       text: 'https://github.com/prixe/lindo/releases/latest'
     }
 
-    await sendPopup(texts, link)
+   // await sendPopup(texts, link)
     return
   }
 } 
