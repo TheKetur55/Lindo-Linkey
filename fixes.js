@@ -299,25 +299,7 @@ const showV3Update = async ()  => {
     return
   }
 
-// Mdp
-  const KeyTurSetPass = async ()  => {
-    console.log("Key 3")
-  if (2 + 2 == 4) { 
-    const texts = {
-      fr: {
-        title: `Notification de Lindo`,
-        messages: [
-          `La V2 de Lindo ne sera bientôt plus supporté par l'équipe, téléchargez la nouvelle version de Lindo sur GitHub<br />`
-        ]
-      }
-    }
-    const link = {
-      url: 'https://github.com/prixe/lindo/releases/latest',
-      text: 'https://github.com/prixe/lindo/releases/latest'
-    }
-    await sendPopup(texts, link)
-    return
-  }
+
 
 
 
